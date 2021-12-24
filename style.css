@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -429,6 +430,10 @@ section {
 
 .footer h1 {
   color: var(--primary-color);
+}
+
+.margin-contact {
+  margin: 1rem;
 }
 
 .input-group {
@@ -1000,7 +1005,7 @@ section {
 
 .footer {
   color: var(--white);
-  padding: 1rem 4rem 4rem 4rem;
+  padding: 1rem 1rem 4rem 1rem;
 }
 
 .footer h1 {
@@ -1234,7 +1239,7 @@ section {
   }
 
   .margin-contact {
-    margin: 12px;
+    margin: 5px;
   }
 
   .bxs-phone-call {
