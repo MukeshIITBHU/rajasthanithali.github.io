@@ -788,6 +788,20 @@
     activeMenu();
     window.addEventListener("scroll", activeMenu);
   </script>
+  <script>
+    const m = document.querySelectorAll(".mb-nav-item");
+    // const se = document.querySelectorAll("section");
+
+    function activeMenu() {
+      let le = sec.length;
+      while (--le && window.scrollY + 97 < sec[le].offsetTop) {}
+      m.forEach(ltx => ltx.classList.remove("active"));
+      m[le].classList.add("active");
+    }
+    // setTimeout(3600,activeMenu());
+    activeMenu();
+    window.addEventListener("scroll", activeMenu);
+  </script>
   <!-- about section ends -->
   <!-- FOOTER SECTION -->
   <section class="footer bg-img" style="background-color: black">

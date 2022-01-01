@@ -1292,6 +1292,10 @@ section {
     transform: unset !important;
   }
 
+  .bx-up-arrow-circle{
+    font-size: 22px;
+  }
+
   /* MOBILE NAV */
 
   .mb-nav {
@@ -1328,13 +1332,17 @@ section {
   .mb-nav-item.active i {
     color: var(--white);
   }
+  .mb-nav-item.active{
+    color: var(--white);
+    background-color: var(--primary-color);
+  }
 
   .mb-move-item {
     position: absolute;
     left: 0;
     width: 25%;
     height: 100%;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     transition: 0.5s ease-in-out;
   }
 
@@ -1394,6 +1402,12 @@ section {
 
   .h-xs {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 340px){
+  .row{
+    flex-direction: column;
   }
 }
 
@@ -1497,7 +1511,7 @@ section {
     left: 0;
     width: 25%;
     height: 100%;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     transition: 0.5s ease-in-out;
   }
 
