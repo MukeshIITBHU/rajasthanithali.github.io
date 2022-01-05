@@ -32,6 +32,10 @@ html {
   overflow-x: hidden;
 }
 
+#home{
+  background-image: url(assets/home-bg.jpg)
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -186,7 +190,6 @@ section {
   background-color: var(--primary-color);
   color: var(--white);
 }
-
 
 .fullwidth-cook {
   width: 80%;
@@ -868,7 +871,7 @@ section {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.food-menu > p:first-child  {
+.food-menu > p:first-child {
   color: var(--grey);
   font-size: 2rem;
   font-weight: 600;
@@ -1226,6 +1229,9 @@ section {
   * {
     font-size: 13px;
   }
+  #home {
+    background-image: url(/assets/home-bg-mb.jpg) !important;
+  }
 
   .grid-box {
     grid-template-columns: repeat(1, auto);
@@ -1298,7 +1304,7 @@ section {
     transform: unset !important;
   }
 
-  .bx-up-arrow-circle{
+  .bx-up-arrow-circle {
     font-size: 22px;
   }
 
@@ -1338,7 +1344,7 @@ section {
   .mb-nav-item.active i {
     color: var(--white);
   }
-  .mb-nav-item.active{
+  .mb-nav-item.active {
     color: var(--white);
     background-color: var(--primary-color);
   }
@@ -1411,8 +1417,8 @@ section {
   }
 }
 
-@media only screen and (max-width: 340px){
-  .row{
+@media only screen and (max-width: 340px) {
+  .row {
     flex-direction: column;
   }
 }
