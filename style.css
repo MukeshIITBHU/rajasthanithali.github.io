@@ -167,8 +167,9 @@ section {
   font-size: 20px;
 }
 
-.slogan button {
-  padding: 1rem 5rem;
+.slogan span {
+  display: inline-block;
+  padding: 1rem 3rem;
   outline: none;
   border: none;
   background-color: var(--background-color);
@@ -181,10 +182,11 @@ section {
   transition: 0.5s ease-in-out;
 }
 
-.slogan button:hover {
+.slogan span:hover {
   background-color: var(--primary-color);
   color: var(--white);
 }
+
 
 .fullwidth-cook {
   width: 80%;
@@ -233,8 +235,9 @@ section {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.food-menu h1 {
+.food-menu h2 {
   color: var(--grey);
+  font-size: 2rem;
 }
 
 .food-menu p {
@@ -798,8 +801,9 @@ section {
   font-size: 16px;
 }
 
-.slogan button {
-  padding: 1rem 5rem;
+.slogan span {
+  display: inline-block;
+  padding: 1rem 3rem;
   outline: none;
   border: none;
   background-color: var(--background-color);
@@ -812,7 +816,7 @@ section {
   transition: 0.5s ease-in-out;
 }
 
-.slogan button:hover {
+.slogan span:hover {
   background-color: var(--primary-color);
   color: var(--white);
 }
@@ -864,8 +868,10 @@ section {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.food-menu h1 {
+.food-menu > p:first-child  {
   color: var(--grey);
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .food-menu p {
