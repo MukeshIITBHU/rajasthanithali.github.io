@@ -16,7 +16,7 @@
 
 @media only screen and (min-height: 680px) {
   #menu{
-    background-image: url(assets/menu-back.jpg);
+    background-image: url(assets/menu-back.webp);
   }
 }
 
@@ -39,7 +39,7 @@ html {
 }
 
 #home{
-  background-image: url(assets/home-bg.jpg)
+  background-image: url(assets/home-bg.webp)
 }
 
 .nav {
@@ -209,6 +209,7 @@ section {
   border-radius: 2rem;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    width: 85%;
 }
 
 .about-slogan {
@@ -1236,7 +1237,7 @@ section {
     font-size: 13px;
   }
   #home {
-    background-image: url(/assets/home-bg-mb.jpg) !important;
+    background-image: url(/assets/home-bg-mb.webp) !important;
   }
 
   .grid-box {
@@ -1273,7 +1274,7 @@ section {
   }
 
   .about {
-    background-image: url(assets/menu-back.jpg);
+    background-image: url(assets/menu-back.webp);
     background-attachment: fixed;
   }
 
@@ -1447,7 +1448,7 @@ section {
   }
 
   .about {
-    background-image: url(assets/all-back.jpg);
+    background-image: url(assets/all-back.webp);
     background-attachment: fixed;
   }
 
